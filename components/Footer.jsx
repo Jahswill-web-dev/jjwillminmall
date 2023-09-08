@@ -1,4 +1,5 @@
-import Button from "./Button";
+// import Button from "./Button";
+import Link from "next/link";
 
 
 
@@ -13,9 +14,9 @@ function Footer() {
             </div>
                 <hr className="text-secondary border border-secondary"/>
             <div className="sm:w-[25%]">
-            <h4 className="font-semibold">Contact</h4>
-                <p>Phone:+2349047364596</p>
-                <p>Phone:+2347080934619</p>
+            <h4 className="font-semibold">Contact us</h4>
+                <p><Link href="https://wa.me/+2349039886782?text=" target="_blank">Phone:+2349039886782</Link></p>
+                <p><Link href="https://wa.me/+2349047364596?text=" target="_blank">Phone:+2349047364596</Link></p>
             </div>
             <hr className="text-secondary border border-secondary" />
             

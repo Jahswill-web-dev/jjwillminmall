@@ -11,10 +11,10 @@ function Nav() {
         setNavHeigth(navHeight === "h-0" ? "h-60" : "h-0");
     }
     return (
-        <div className="fixed w-full z-20">
+        <div className="fixed w-full z-30">
             {/* mobile */}
             <nav className="flex justify-between px-4 py-2 items-center md:hidden bg-white">
-                <Link href="#home" className="text-3xl text-primary">
+                <Link href="/#home" className="text-3xl text-primary">
                     <Image
                         src={logo}
                         alt='jjwillmin logo'
@@ -27,10 +27,10 @@ function Nav() {
             <ul className={`flex flex-col items-center gap-4 transition-all ease-in-out ${navHeight} md:h-0
                  duration-400 delay-150 overflow-hidden text-primary text-2xl bg-white absolute top-[3.5rem] bottom-0 left-0 right-0`}
                 style={{ transition: 'height 0.3s' }} >
-                <Link href="#about">About</Link>
-                <Link href="#contact">Contact</Link>
-                <Link href="#blog">Blog/News</Link>
-                <Link href="#blog">Gallery</Link>
+                <Link href="/#about">About</Link>
+                <Link href="/#contact">Contact</Link>
+                <Link href="/blog">Blog/News</Link>
+                <Link href="/gallery">Gallery</Link>
                 {/* <Link href="https://calendly.com/golddustai/business-consultaion-call">
                     <div className="text-white text-2xl mx-auto sm:mx-0 font-semibold text-center bg-primary rounded-lg px-1 my-2 py-2.5  w-[13rem]">
                         Book a free call
@@ -41,17 +41,17 @@ function Nav() {
 
             {/* desktop */}
             <nav className="flex justify-between px-4 py-2 items-center hidden md:flex bg-white">
-                <Link href="#home" className="text-3xl text-primary"><Image
+                <Link href="/#home" className="text-3xl text-primary"><Image
                     src={logo}
                     alt='jjwillmin logo'
                     width={50}
                     height={50}
                 /></Link>
                 <ul className="hidden md:flex gap-5 text-primary pr-4 text-xl">
-                    <Link href="#about">About</Link>
-                    <Link href="#contact">Contact </Link>
-                    <Link href="#services">Blog/News</Link>
-                    <Link href="#services">Gallery</Link>
+                    <Link href="/#about">About</Link>
+                    <Link href="/#contact">Contact </Link>
+                    <Link href="/blog">Blog/News</Link>
+                    <Link href="/gallery">Gallery</Link>
                 </ul>
             </nav>
 

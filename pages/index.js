@@ -8,7 +8,7 @@ import Details from '../components/Details';
 import Jjwillmin from '../components/Company';
 import Progress from '../components/Project';
 import Sponsor from '../components/Sponsor';
-import image3 from '../public/images/image3.png';
+import image3 from '../public/images/image2.png';
 import image4 from '../public/images/3d-picture.jpeg';
 import affiliate from '../public/images/affiliate.png';
 import Contact from '../components/Contact';
@@ -16,6 +16,7 @@ import Footer from '../components/Footer';
 
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
+// const image3 = "https://res.cloudinary.com/drpzv54qa/image/upload/v1694084086/mall/p61_bppnrl.jpg";
 
 export default function Home() {
   return (
