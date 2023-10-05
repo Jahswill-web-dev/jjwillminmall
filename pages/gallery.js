@@ -48,7 +48,28 @@ const images = [
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1694082544/mall/p56_tnvtb7.jpg",
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1694082542/mall/p55_xabzez.jpg",
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1694082541/mall/p53_peca6e.jpg",
-    "https://res.cloudinary.com/drpzv54qa/image/upload/v1694082536/mall/p58_j7cms9.jpg"
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1694082536/mall/p58_j7cms9.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508296/mall/WhatsApp_Image_2023-10-04_at_07.10.28_wabirc.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508296/mall/WhatsApp_Image_2023-10-04_at_07.14.23_3_eblwjz.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508297/mall/WhatsApp_Image_2023-10-04_at_07.24.58_seyp91.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508296/mall/WhatsApp_Image_2023-10-04_at_07.14.23_2_ciel2k.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508295/mall/WhatsApp_Image_2023-10-04_at_07.14.23_pgal8h.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508296/mall/WhatsApp_Image_2023-10-04_at_07.14.23_4_bgbhkl.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508295/mall/WhatsApp_Image_2023-10-04_at_07.24.59_nw5wzz.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508295/mall/WhatsApp_Image_2023-10-04_at_07.14.23_1_jebffc.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508490/mall/WhatsApp_Image_2023-10-04_at_07.26.31_1_xpobzp.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508489/mall/WhatsApp_Image_2023-10-04_at_07.26.31_eglrpn.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508485/mall/WhatsApp_Image_2023-09-30_at_19.42.12_ao8mdz.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508485/mall/WhatsApp_Image_2023-10-04_at_07.26.29_lizrbo.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508486/mall/WhatsApp_Image_2023-10-04_at_07.26.30_wjba3i.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508489/mall/WhatsApp_Image_2023-10-04_at_07.26.30_1_rfvqoc.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508479/mall/WhatsApp_Image_2023-09-30_at_19.42.15_r6jvlu.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508479/mall/WhatsApp_Image_2023-09-30_at_19.42.14_1_uaacvt.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508478/mall/WhatsApp_Image_2023-10-04_at_07.26.32_e0rb7z.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508478/mall/WhatsApp_Image_2023-10-04_at_07.26.31_2_lyzb6j.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508479/mall/WhatsApp_Image_2023-09-30_at_19.42.14_x57evy.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508478/mall/WhatsApp_Image_2023-10-04_at_07.26.31_3_ijw9bo.jpg"
+
 ]
 function Gallery() {
 

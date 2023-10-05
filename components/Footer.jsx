@@ -15,7 +15,7 @@ function Footer() {
                 <hr className="text-secondary border border-secondary"/>
             <div className="sm:w-[25%]">
             <h4 className="font-semibold">Contact us</h4>
-                <p><Link href="https://wa.me/+2349039886782?text=" target="_blank">Phone:+2349039886782</Link></p>
+                <p><Link href="https://wa.me/+2349039886082?text=" target="_blank">Phone:+2349039886082</Link></p>
                 <p><Link href="https://wa.me/+2349047364596?text=" target="_blank">Phone:+2349047364596</Link></p>
             </div>
             <hr className="text-secondary border border-secondary" />

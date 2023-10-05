@@ -22,7 +22,7 @@ function Project() {
                     />
                 ))}
             </div>
-            <Link href="/api">
+            <Link href="/gallery">
                     <div className="text-white text-2xl font-semibold text-center mx-auto
                     bg-secondary rounded-lg px-1 my-2 py-2.5 flex items-center justify-center w-[13rem] my-5">
                         Visit gallery

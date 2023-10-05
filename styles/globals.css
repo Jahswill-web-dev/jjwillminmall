@@ -1,3 +1,86 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+
+    .blog-content h1,
+    .header h1 {
+        @apply text-5xl;
+    }
+
+    .blog-content p {
+        @apply text-base text-black;
+        /* Restore paragraph styles */
+    }
+
+    .blog-content h2,
+    .header h2 {
+        @apply text-4xl font-semibold;
+        /* Restore h2 styles */
+    }
+
+    .blog-content h3 {
+        @apply text-3xl font-semibold;
+        /* Restore h3 styles */
+    }
+    
+    .blog-content h4 {
+        @apply text-2xl font-semibold;
+        /* Restore h3 styles */
+    }
+    
+    .blog-content h5 {
+        @apply text-xl font-semibold;
+        /* Restore h3 styles */
+    }
+    
+    .blog-content h6 {
+        @apply text-lg font-semibold;
+        /* Restore h3 styles */
+    }
+
+    .blog-content strong {
+        @apply font-semibold;
+        /* Restore bold styles */
+    }
+
+    .blog-content a {
+        @apply text-blue-500 underline hover:text-blue-700;
+        /* Anchor tag styles */
+    }
+
+    .blog-content ul,
+    .blog-content ol {
+        @apply list-disc ml-6;
+        /* Unordered and ordered list styles */
+    }
+
+    .blog-content li {
+        @apply text-base text-black;
+        /* List item styles */
+    }
+
+    .blog-content em {
+        @apply italic;
+        /* Emphasized text styles */
+    }
+
+    .blog-content blockquote {
+        @apply border-l-4 border-gray-300 pl-4 py-2 my-4;
+        /* Blockquote styles */
+    }
+
+    .blog-content pre {
+        @apply bg-gray-100 p-4 my-4 rounded-md;
+        /* Preformatted code block styles */
+    }
+
+    .blog-content code {
+        @apply bg-gray-100 px-2 py-1 rounded-md font-mono text-sm;
+        /* Inline code styles */
+    }
+
+    /* Add more elements and styles as needed */
+}

@@ -13,12 +13,14 @@ import image4 from '../public/images/3d-picture.jpeg';
 import affiliate from '../public/images/affiliate.png';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+// import HomeLatestPost from '../components/HomeLatestPost';
+import axios from 'axios';
 
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 // const image3 = "https://res.cloudinary.com/drpzv54qa/image/upload/v1694084086/mall/p61_bppnrl.jpg";
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <>
       <Head>
@@ -69,9 +71,25 @@ export default function Home() {
           photo={affiliate}
         />
         <Contact/>
+
+
         <Footer/>
       </div>
 
     </>
   )
 }
+
+
+
+// export async function getStaticProps(){
+
+//  const response = await axios.get("http://localhost:1337/api/posts");
+
+// return {
+//     props:{
+//       posts:response.data.data
+//     },
+// };
+
+// }
