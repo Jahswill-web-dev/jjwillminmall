@@ -1,7 +1,7 @@
 // import axios from 'axios';
 import React from 'react';
-import MarkdownIt from 'markdown-it';
-import * as cheerio from 'cheerio';
+// import MarkdownIt from 'markdown-it';
+// import * as cheerio from 'cheerio';
 import Nav from '../../components/Nav';
 
 // export const getStaticPaths = async () => {
@@ -31,9 +31,9 @@ import Nav from '../../components/Nav';
 
 function PostPage({ post }) {
     // console.log(post)
-    const md = new MarkdownIt();
-    const htmlContent = md.render(post.attributes.content);
-    const $ = cheerio.load(htmlContent);
+    // const md = new MarkdownIt();
+    // const htmlContent = md.render(post.attributes.content);
+    // const $ = cheerio.load(htmlContent);
     //  console.log($.html())
 
     // console.log(post.attributes.thumbnail.data.attributes.url)
