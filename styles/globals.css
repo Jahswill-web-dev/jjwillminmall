@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.darken-image {
+    filter: brightness(60%);
+ }
 @layer components {
 
     .blog-content h1,
