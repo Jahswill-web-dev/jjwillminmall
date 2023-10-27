@@ -13,6 +13,7 @@ import image4 from '../public/images/3d-picture.jpeg';
 import affiliate from '../public/images/affiliate.png';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Pixel from '../components/pixel';
 // import HomeLatestPost from '../components/HomeLatestPost';
 import axios from 'axios';
 
@@ -27,8 +28,10 @@ export default function Home({ posts }) {
         <title>J.J.WILLMIN SHOPPING MALL</title>
         <meta name="description" content="Lucratve Real Estate Investment, own a space in the J.J.WILLMIN SHOPPING MALL complex and make profits" />
         <link rel="icon" href="/logo.png" />
+        {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
       </Head>
       <div className=''>
+
         <Nav />
         <Banner />
         <Content />
@@ -70,10 +73,10 @@ export default function Home({ posts }) {
           btnLink="/"
           photo={affiliate}
         />
-        <Contact/>
+        <Contact />
 
 
-        <Footer/>
+        <Footer />
       </div>
 
     </>

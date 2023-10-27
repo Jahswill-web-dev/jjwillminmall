@@ -68,8 +68,11 @@ const images = [
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508478/mall/WhatsApp_Image_2023-10-04_at_07.26.32_e0rb7z.jpg",
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508478/mall/WhatsApp_Image_2023-10-04_at_07.26.31_2_lyzb6j.jpg",
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508479/mall/WhatsApp_Image_2023-09-30_at_19.42.14_x57evy.jpg",
-    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508478/mall/WhatsApp_Image_2023-10-04_at_07.26.31_3_ijw9bo.jpg"
-
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1696508478/mall/WhatsApp_Image_2023-10-04_at_07.26.31_3_ijw9bo.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081648/mall/WhatsApp_Image_2023-10-23_at_11.48.25_ld3sro.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081648/mall/WhatsApp_Image_2023-10-23_at_11.48.25_1_eknop3.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081647/mall/WhatsApp_Image_2023-10-23_at_11.48.24_we1m12.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081647/mall/WhatsApp_Image_2023-10-23_at_11.48.24_1_rs2eqw.jpg"
 ]
 function Gallery() {
 
