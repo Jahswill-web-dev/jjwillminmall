@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
-import sponsor from "../public/images/sponsorship.png";
 import Button from "./Button";
+import Link from "next/link";
+// import img2 from "../public/images/"
 
 function Sponsor() {
+    const img = "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081647/mall/WhatsApp_Image_2023-10-23_at_11.48.24_we1m12.jpg"
     return (
         <div className="mt-10">
             <h2 className="text-3xl text-primary text-center mx-auto">Work in Progress</h2>
@@ -17,10 +18,14 @@ function Sponsor() {
                 </div>
 
                 <div className="sm:w-[50%] w-[95%]">
-                    <Image src={sponsor}
+                    <Image src={img}
+                    width={700}
+                    height={700}
                         className="sm:w-[100%]"
-                        alt="web confrence meeting with out Directors"
+                        alt="Project pictures"
                     />
+
+                <Link href="/gallery" className="underline text-primary">see more pictures</Link>
                 </div>
             </div>
         </div>

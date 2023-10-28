@@ -1,7 +1,7 @@
 import React from 'react'; 
 import Head from "next/head";
 import Nav from "../components/Nav";
-import Carosel from '../components/Carosel';
+// import Carosel from '../components/Carosel';
 
 
 function posts() {
@@ -14,7 +14,7 @@ function posts() {
         </Head>
         <div className="">
             {/* <Nav/> */}
-            <Carosel/>
+            {/* <Carosel/> */}
 
 
 

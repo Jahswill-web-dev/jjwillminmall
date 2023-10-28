@@ -6,7 +6,7 @@ import Cta from '../components/Cta';
 import invest from '../public/images/invest.png';
 import Details from '../components/Details';
 import Jjwillmin from '../components/Company';
-import Progress from '../components/Project';
+// import Progress from '../components/Project';
 import Sponsor from '../components/Sponsor';
 import image3 from '../public/images/image2.png';
 import image4 from '../public/images/3d-picture.jpeg';
@@ -43,27 +43,17 @@ export default function Home({ posts }) {
           photo={invest}
         />
         <Details />
-
         <Sponsor />
         <Jjwillmin />
-        <Progress />
-        <Cta
-          content="Gain insights into the project's potential, our innovative strategies, and get answers to all your questions, ensuring you make an informed decision.
-          "
-          content2="Book a meeting to see how you can be part of this project Now"
-          title="Learn More"
-          st="sm:flex-row"
-          btn="Start a chat for more information"
-          btnLink="/"
-          photo={image4}
-        />
+      
+{/*         
         <Cta
           content="Enroll in the J.J.WILLMIN Affiliate Program:  earn anywhere from ₦450,000 to ₦1,000,000 or $590 to $1000+ by referring sponsors or buyers."
           btn="Become an Affiliate"
           st="sm:flex-row-reverse"
           btnLink="/"
           photo={affiliate}
-        />
+        /> */}
         <Contact />
 
 
