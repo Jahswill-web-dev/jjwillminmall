@@ -29,7 +29,7 @@ function Nav() {
                 style={{ transition: 'height 0.3s' }} >
                 <Link href="/#about">About</Link>
                 <Link href="/#contact">Contact</Link>
-                <Link href="/posts">Blog/News</Link>
+                {/* <Link href="/posts">Blog/News</Link> */}
                 <Link href="/gallery">Gallery</Link>
                 {/* <Link href="https://calendly.com/golddustai/business-consultaion-call">
                     <div className="text-white text-2xl mx-auto sm:mx-0 font-semibold text-center bg-primary rounded-lg px-1 my-2 py-2.5  w-[13rem]">
@@ -50,7 +50,7 @@ function Nav() {
                 <ul className="hidden md:flex gap-5 text-primary pr-4 text-xl">
                     <Link href="/#about">About</Link>
                     <Link href="/#contact">Contact </Link>
-                    <Link href="/posts">Blog/News</Link>
+                    {/* <Link href="/posts">Blog/News</Link> */}
                     <Link href="/gallery">Gallery</Link>
                 </ul>
             </nav>

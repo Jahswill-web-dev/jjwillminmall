@@ -17,6 +17,9 @@ function Footer() {
             <h4 className="font-semibold">Contact us</h4>
                 <p><Link href="https://wa.me/+2349039886082?text=" target="_blank">Phone:+2349039886082</Link></p>
                 <p><Link href="https://wa.me/+2349047364596?text=" target="_blank">Phone:+2349047364596</Link></p>
+                <p>USA Line</p>
+                <p><Link href="tel:+1(832) 427-8219" target="_blank">Phone:+1(832) 427-8219</Link></p>
+
             </div>
             <hr className="text-secondary border border-secondary" />
             
@@ -24,7 +27,7 @@ function Footer() {
                 <div className="flex flex-col gap-3">
                     <h4 className="font-semibold">Company</h4>
                     <p>Gallery</p>
-                    <p>Blog/News</p>
+                    {/* <p>Blog/News</p> */}
                     <p>jjwillmin@gmail.com</p>
                 </div>
             </div>
