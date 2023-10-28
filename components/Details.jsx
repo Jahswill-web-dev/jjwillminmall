@@ -1,8 +1,8 @@
 import Detail from "./Detail";
 import shops from "../public/images/shops.jpeg";
-import ownership from "../public/images/ownership.png";
-import profit from "../public/images/profit.png";
-import time from "../public/images/time.png";
+// import ownership from "../public/images/ownership.png";
+// import profit from "../public/images/profit.png";
+// import time from "../public/images/time.png";
 
 
 function Details() {

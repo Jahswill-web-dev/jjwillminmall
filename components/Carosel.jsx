@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import Picture from "../public/images/affiliate.png";
 
 export default function Carosel() {

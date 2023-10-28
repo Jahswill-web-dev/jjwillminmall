@@ -1,11 +1,11 @@
 import Image from "next/image";
 // import meeting from "../public/images/meeting.png";
-import Link from "next/link";
+// import Link from "next/link";
 import Button from "./Button";
 
 
 
-function Cta({ content, content2, title, btn, btnLink, photo, st }) {
+function Cta({ content, title, photo, st }) {
     return (
         <div className={`px-5 md:px-20 mt-10 flex flex-col-reverse items-center gap-3 text-center ${st} sm:gap-5 sm:mx-auto sm:w-[95%]`}>
             <div className="sm:w-[50%] text-left text-secondary w-[95%]">

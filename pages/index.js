@@ -8,14 +8,14 @@ import Details from '../components/Details';
 import Jjwillmin from '../components/Company';
 // import Progress from '../components/Project';
 import Sponsor from '../components/Sponsor';
-import image3 from '../public/images/image2.png';
-import image4 from '../public/images/3d-picture.jpeg';
-import affiliate from '../public/images/affiliate.png';
+// import image3 from '../public/images/image2.png';
+// import image4 from '../public/images/3d-picture.jpeg';
+// import affiliate from '../public/images/affiliate.png';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 // import Pixel from '../components/pixel';
 // import HomeLatestPost from '../components/HomeLatestPost';
-import axios from 'axios';
+// import axios from 'axios';
 
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
