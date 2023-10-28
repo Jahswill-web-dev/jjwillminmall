@@ -13,7 +13,7 @@ import image4 from '../public/images/3d-picture.jpeg';
 import affiliate from '../public/images/affiliate.png';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import Pixel from '../components/pixel';
+// import Pixel from '../components/pixel';
 // import HomeLatestPost from '../components/HomeLatestPost';
 import axios from 'axios';
 
