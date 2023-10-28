@@ -28,7 +28,7 @@ function Content() {
             </div>
 
             <div className="flex flex-col gap-5 mt-5">
-                <h2 className="text-center p-2 text-2xl text-secondary">Investing where there's guaranteed demand ensures a secure investment.</h2>
+                <h2 className="text-center p-2 text-2xl text-secondary">{`Investing where there's guaranteed demand ensures a secure investment.`}</h2>
                 {/* <h2 className="text-center p-3 text-3xl text-secondary"></h2> */}
 
                 <div className="text-secondary flex flex-col gap-3 sm:gap-10 items-center text-center sm:flex-row-reverse  sm:gap-5 sm:mx-auto">
