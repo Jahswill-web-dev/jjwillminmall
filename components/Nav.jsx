@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import Image from "next/image";
+import Button from './Button';
 import Link from "next/link";
 import Image from 'next/image';
 import logo from "../public/images/logo.png";
@@ -28,14 +28,11 @@ function Nav() {
                  duration-400 delay-150 overflow-hidden text-primary text-2xl bg-white absolute top-[3.5rem] bottom-0 left-0 right-0`}
                 style={{ transition: 'height 0.3s' }} >
                 <Link href="/#about">About</Link>
-                <Link href="/#contact">Contact</Link>
+                {/* <Link href="/#contact">Contact</Link> */}
                 {/* <Link href="/posts">Blog/News</Link> */}
                 <Link href="/gallery">Gallery</Link>
-                {/* <Link href="https://calendly.com/golddustai/business-consultaion-call">
-                    <div className="text-white text-2xl mx-auto sm:mx-0 font-semibold text-center bg-primary rounded-lg px-1 my-2 py-2.5  w-[13rem]">
-                        Book a free call
-                    </div>
-                </Link> */}
+                <Button content="Start Investing Now!!" id="nav_btn_m"/>
+                
             </ul>
 
 
@@ -47,11 +44,11 @@ function Nav() {
                     width={50}
                     height={50}
                 /></Link>
-                <ul className="hidden md:flex gap-5 text-primary pr-4 text-xl">
+                <ul className="hidden md:flex gap-5 sm:items-center text-primary pr-4 text-xl">
                     <Link href="/#about">About</Link>
-                    <Link href="/#contact">Contact </Link>
                     {/* <Link href="/posts">Blog/News</Link> */}
                     <Link href="/gallery">Gallery</Link>
+                    <Button content="Invest Now!!" id="nav_btn_d"/>
                 </ul>
             </nav>
 

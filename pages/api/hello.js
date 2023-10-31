@@ -20,17 +20,20 @@ export default async function handler(req, res){
     from: email,
     to:email,
     replyTo:`${req.body.email}`,
-    subject: `Message From ${req.body.subject}`,
+    subject: `Message From ${req.body.name}`,
    }
 
     try{
       await transport.sendMail({
         ...mailData,
         html:`
-        <p>Name:${req.body.name}</p>
-        <p>Email:${req.body.email}</p>
-        <p>Role:${req.body.Role}</p>  
-        <p>Message:${req.body.message}</p>
+        <p>Name: ${req.body.name}</p>
+        <p>Email: ${req.body.email}</p>
+        <p>phone: ${req.body.phone}</p>
+        <p>mode of payment: ${req.body.payment_mode}</p>  
+        <p>unit type: ${req.body.unit_type}</p>  
+        <p>quantity: ${req.body.quantity}</p>
+        <p>Floor level: ${req.body.floor_level}</p>
         `,
       });
       console.log("Email sent successfully");
