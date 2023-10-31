@@ -14,7 +14,7 @@ function Banner() {
                     High Returns in 12 months
                 </h4>
                 {/* <Button bcontent="Schedule A Free Consultation Call" stb="heoll"/> */}
-                <Button content="Start Investing Now!!"/>
+                <Button content="Start Investing Now!!" id="banner_btn"/>
             </div>
             <Image
                 src={banner}

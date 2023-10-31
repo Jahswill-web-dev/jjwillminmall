@@ -25,7 +25,7 @@ function Sponsor() {
                         alt="Project pictures"
                     />
 
-                <Link href="/gallery" className="underline text-primary">see more pictures</Link>
+                <Link href="/gallery" className="underline text-2xl text-primary">see more pictures</Link>
                 </div>
             </div>
         </div>

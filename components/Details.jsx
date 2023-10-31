@@ -32,7 +32,7 @@ function Details() {
                  unit="Ground Floor"
                  price="Price:₦10.5M"
                  outright="Outright Purchase:₦10.5M"
-                 deposit="Initial Deposit: ₦8M"
+                 deposit="Initial Deposit: ₦3.5M"
                  monthly="Monthly: ₦700,000 "
                  photo={shops}
             />

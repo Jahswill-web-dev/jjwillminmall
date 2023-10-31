@@ -11,7 +11,7 @@ function Cta({ content, title, photo, st }) {
             <div className="sm:w-[50%] text-left text-secondary w-[95%]">
                 <h2 className="text-primary font-semibold text-3xl sm:text-2xl">{title}</h2>
                 <p className="text-lg text-secondary">{content}</p>
-                <Button content="Invest Now!!" />
+                <Button id="invest_btn_2" content="Invest Now!!" />
             </div>
 
             <div className="sm:w-[40%] w-[95%]">
