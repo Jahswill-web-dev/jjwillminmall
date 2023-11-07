@@ -3,6 +3,9 @@ import sendDataToServer from './lib/api';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useRouter } from 'next/router';
+
+
 
 const validationSchema = yup.object().shape({
     name: yup.string().required('Name is required'),
@@ -23,6 +26,7 @@ const validationSchema = yup.object().shape({
 
 
 function Contact() {
+    const router = useRouter();
     const { register, handleSubmit, formState: { errors }, reset } = useForm({
         resolver: yupResolver(validationSchema),
     });
@@ -48,6 +52,7 @@ function Contact() {
             if (response.message === "success") {
                 setResponseStatus(true);
                 setStatusMessage("Thank you");
+                router.push('/thank-you');
                 setTimeout(clearSuccessMessage, 9000);
             } else {
                 setResponseStatus(false);
@@ -145,8 +150,8 @@ function Contact() {
                 <button type="submit" className="mb-10 hover:bg-secondary form-btn text-white bg-primary px-8 py-3 text-xl rounded-lg"
                 >Place Your Order
                 </button>
-
-                {responseStatus ? <div className="text-4xl text-green-600">{statusMessage}</div> : <div className="text-red-600">{statusMessage}</div>}
+                {/* {responseStatus ? <div className="text-4xl text-green-600">{statusMessage}</div> : <div className="text-red-600">{statusMessage}</div>} */}
+                
             </form>
         </div>
 
