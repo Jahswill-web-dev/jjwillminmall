@@ -9,9 +9,10 @@ const validationSchema = yup.object().shape({
     email: yup.string().email('Invalid email').required('Email is required'),
     phone: yup.string().required('phone is required'),
     // message: yup.string().required('Message is required'),
-    payment_mode: yup.string().oneOf(['outright', 'installments']).required('payment mode is required'),
-    unit_type: yup.string().oneOf(['single_unit', 'double_unit']).required('unit is required'),
-    quantity: yup.number().min(1).typeError('input a number').required('quantity is required'),
+    payment_mode: yup.string().oneOf(['outright', 'installments']).required('select a mode of payment'),
+    unit_type: yup.string().oneOf(['single_unit', 'double_unit']),
+    // quantity: yup.number().min(1).typeError('input a number'),
+    quantity: yup.string(),
     floor_level: yup
         .array()
         .of(yup.string())

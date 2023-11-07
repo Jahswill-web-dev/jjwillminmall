@@ -12,7 +12,7 @@ function Sponsor() {
 
             <div className="mt-10 flex flex-col-reverse items-center gap-3 text-center sm:flex-row-reverse sm:gap-5 sm:mx-auto sm:w-[95%]">
                 <div className="text-center sm:text-left sm:w-[50%] text-left text-secondary w-[95%]">
-                    <p className="text-lg text-secondary">The Project is in progress Invest in real estate now, Choose your unit and start reaping returns</p>
+                    <p className="text-2xl text-secondary pb-2">The Project is in progress Invest in real estate now, Choose your unit and start reaping returns</p>
                     <Button content="Select Your Ideal Unit"/>
 
                 </div>

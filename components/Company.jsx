@@ -9,7 +9,7 @@ function Jjwillmin() {
             <h2 className="text-center text-primary mx-auto text-4xl sm:text-2xl">Experienced Oversight</h2>
             <div className="flex flex-col-reverse items-center gap-3 text-center sm:flex-row sm:gap-5 sm:mx-auto sm:w-[95%]">
 
-                <div className="leading-7 sm:w-[50%] text-left text-secondary w-[95%]">
+                <div className="leading-7 sm:w-[50%] text-left text-2xl text-secondary w-[95%]">
                     <p>
                         This private project is in excellent hands with J.J.WILLMIN, a construction company with decades of experience in the industry. They have an impressive track record of successfully executing high-value projects, similar to the present project.
                     </p>

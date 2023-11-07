@@ -72,7 +72,15 @@ const images = [
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081648/mall/WhatsApp_Image_2023-10-23_at_11.48.25_ld3sro.jpg",
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081648/mall/WhatsApp_Image_2023-10-23_at_11.48.25_1_eknop3.jpg",
     "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081647/mall/WhatsApp_Image_2023-10-23_at_11.48.24_we1m12.jpg",
-    "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081647/mall/WhatsApp_Image_2023-10-23_at_11.48.24_1_rs2eqw.jpg"
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1698081647/mall/WhatsApp_Image_2023-10-23_at_11.48.24_1_rs2eqw.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1699341350/WhatsApp_Image_2023-11-06_at_17.52.03_slycy4.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1699341551/mall/WhatsApp_Image_2023-11-06_at_17.52.04_jlkvjn.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1699341546/mall/WhatsApp_Image_2023-11-06_at_17.52.04_1_wi5dch.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1699341555/mall/WhatsApp_Image_2023-11-06_at_17.52.03_1_jtpsvi.jpg",
+    "https://res.cloudinary.com/drpzv54qa/image/upload/v1699341495/mall/WhatsApp_Image_2023-11-06_at_17.52.04_2_vn4rbn.jpg"
+
+
+
 ]
 function Gallery() {
 
